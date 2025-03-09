@@ -381,3 +381,14 @@ color:	#7A72FF;
 			text-align: center;
 			color: #f2f2f2;
 		} 
+		@media screen and (min-width: 480px) {
+			body {
+			  background-color: lightgreen;
+			}
+			.banner-section{
+				display: grid;
+				justify-content: space-between;
+				grid-column: 2;
+			
+			}
+		  }
